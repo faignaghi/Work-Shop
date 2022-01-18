@@ -1,0 +1,10 @@
+body{
+    background-image: url(./img/form.gif);
+    color: white;
+}
+#header{
+    font-size: 45px;
+}
+.pointer{
+    cursor: pointer;
+}

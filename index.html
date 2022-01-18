@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <h1>Claruswey-Survey-Form</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, architecto.</p>
+        <h1 id="header">Claruswey Survey Form</h1>
+        <h2>Thank you for taking the time to help us improve the platform</h2>
     </header>
     <div>
         <form action="./result.html">
@@ -22,9 +22,8 @@
                 <label for="email">Email</label><br>
                 <input type="email" name="email" id="email" placeholder="Enter YOur Email" required>
             </div>
-
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>Which option best describes your current role?</p>
                 <select name="role" id="" required>
                     <option disable selected value="Select current role">Select current role</option>
                     <option value="Student">Student</option>
@@ -33,10 +32,9 @@
                     <option value="Part Time Job">Part Time Job</option>
                     <option value="Full Time LEarner">Full Time LEarner</option>
                     <option value="Prefer not to say">Prefer not to say</option>
-
                 </select>
 
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Would you recommend Clarusway to a friend?</p>
                 <input type="radio" name="recomend" id="yes" value="Definetly, yes">
                 <label for="yes">Definetly, yes</label><br>
                 
@@ -49,7 +47,7 @@
                 <input type="radio" name="recomend" id="no" value="Definetly, No">
                 <label for="no">Definetly, No</label>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <p>What is your favorite feature of Clarusway?</p>
                 <select name="feature" id="">
                     <option disable selected value="">Select an option</option>
                     <option value="courses">Courses</option>
@@ -57,7 +55,6 @@
                     <option value="community">Community</option>
                     <option value="mentors">Mentors</option>
                 </select>
-
                 <p>What would you like to see improved? (Check all that apply)</p>
                 <input type="checkbox" name="skills" id="fr" value="Front-end Projects">
                 <label for="fr">Front-end Projects</label><br>
@@ -68,15 +65,12 @@
                 <input type="checkbox" name="skills" id="add" value="Additional Courses">
                 <label for="add">Additional Courses</label><br>
             </div>
-
             <div>
-                <p>Lorem ipsum dolor sit.</p>
+                <p>Any comments or suggestions</p>
                 <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here.. "></textarea><br>
-                <input type="submit"  id="Submit" value="Submit">
+                <input type="submit"  id="Submit" value="Submit" class="pointer">
             </div>
-
         </form>
     </div>
-    
 </body>
 </html>
